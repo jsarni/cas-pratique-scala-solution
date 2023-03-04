@@ -12,8 +12,7 @@ homepage := Some(url("https://github.com/jsarni/cas-pratique-scala-solution"))
 val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7" % Test
 
 
-lazy val tp1_solution = (project in file("."))
+lazy val casPratiqueScalaSolution = (project in file("."))
   .settings(
-    name := "tp1-scala-solution",
     libraryDependencies += scalaTest
   )
